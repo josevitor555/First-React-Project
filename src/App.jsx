@@ -1,4 +1,4 @@
-import { Icons } from "./components/icons"
+import { Icons } from "./components/icons";
 
 function App() {
 
@@ -8,6 +8,7 @@ function App() {
         <div className="w-container_width p-6 bg-white rounded">
           <h1 className="text-gray-600 font-bold text-center"> Sim, isto pode ser um componente! </h1>
           <Icons></Icons>
+          <redirectToBuyMeCoffee />
         </div>
       </div>
     </>
